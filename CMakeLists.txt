@@ -20,7 +20,7 @@ option(EXPERIMENTAL_SHA256     "Enable experimental SHA256 support (for R&D/test
 
 # Optional subsystems
 option(BUILD_SHARED_LIBS       "Build Shared Library (OFF for Static)"                  ON)
-option(BUILD_TESTS             "Build Tests using the Clar suite"                       ON)
+option(BUILD_TESTS             "Build Tests using the Clar suite"                       OFF)
 option(BUILD_CLI               "Build the command-line interface"                       ON)
 option(BUILD_EXAMPLES          "Build library usage example apps"                      OFF)
 option(BUILD_FUZZERS           "Build the fuzz targets"                                OFF)
